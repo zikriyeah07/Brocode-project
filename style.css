@@ -12,7 +12,7 @@ nav{
   z-index: 99;
   width: 100%;
   
-  background: #e9eaed;
+  background:rgb(255, 255, 255);
 }
 nav .wrapper{
   position: relative;
@@ -46,7 +46,7 @@ nav .wrapper{
   list-style: none;
 }
 .nav-links li a{
-  color: #f2f2f2;
+  color: #020243;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;

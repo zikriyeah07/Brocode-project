@@ -9,7 +9,7 @@
     height: 650px;
     width: 100%;
     /* border: 2px solid black; */
-    background-image: url(../assets/Images/download\ \(1\).jpeg);
+    background-image: url(./assets/Images/download\ \(1\).jpeg);
     background-size:cover;
     position: center;
 }

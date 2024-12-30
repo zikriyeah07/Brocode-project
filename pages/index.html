@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>NIKE Home</title>
+    <style>
+      body{
+
+        /* transform: translateY(15px); Start slightly below */
+        animation: fadeInText 10s forwards; 
+
+
+        @keyframes fadeInText {
+            to {
+                opacity: 1; /* Fully visible */
+                transform: translateY(0); /* Move to original position */
+            }
+
+      }
+     
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,11 +46,11 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <ul>
-                  <li><a class="dropdown-item" href="#">MEN</a></li>
-                  <li><a class="dropdown-item" href="#">Shoes</a></li>
-                  <li><a class="dropdown-item" href="#">Shirt</a></li>
-                  <li><a class="dropdown-item" href="#">Trouser</a></li>
-                  <li><a class="dropdown-item" href="#">Other</a></li>
+                  <li><a class="dropdown-item" href="./mens.html">MEN</a></li>
+                  <li><a class="dropdown-item" href="./mens.html">Shoes</a></li>
+                  <li><a class="dropdown-item" href="./mens.html">Shirt</a></li>
+                  <li><a class="dropdown-item" href="./mens.html">Trouser</a></li>
+                  <li><a class="dropdown-item" href="./mens.html">Other</a></li>
               </ul>
               <ul>
                   <li><a class="dropdown-item" href="#">WOMEN</a></li>
@@ -95,6 +111,7 @@
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
+          
           <button class="accordion-button shoesbar" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
            <img src="../assets/img/imag/IMAGESS/pexels-rafa-de-21730-345415.jpg" alt=""> <h2 class="buttonpara"  > <q><i>Men's Collection</i></q> Explore cutting-edge footwear, performance gear, and activewear designed to elevate your game. Whether you're running, training, or just living life, Nike is here to help you perform at your best.</h2>
           </button>

@@ -127,7 +127,7 @@ body {
 .text-container p {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #bab7b7;
 }
 
 .shop-button {
@@ -254,6 +254,7 @@ body {
 
   .text-container h1 {
     font-size: 2rem;
+    color: #f43506;
   }
 
   .text-container p {
@@ -269,7 +270,7 @@ body {
 }
 
 .herosection{
-  background-image: url(./assets/img/imag/IMAGESS/nike\ hero\ background.png);
+  background-image: url(../assets/img/imag/IMAGESS/nike\ hero\ background.png);
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -394,6 +395,12 @@ width: 100%;
   margin-bottom: 10px;
   text-align: center;
   animation: myAnim 5s ease 3s infinite normal forwards;
+
+  &:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px rgba(red, 255, 255,);
+    transition: 0.4s;
+    }
 }
 
 @keyframes myAnim {
@@ -441,3 +448,66 @@ width: 100%;
 		transform: translate(0);
 	}
 }
+
+
+.shoessection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shoesdescription{
+  width: 50%;
+}
+
+#secondshop{
+  border-radius: 30px;
+  background-color: #f43506;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none ;
+  }
+  #secondshop:hover{
+    background-color: #062af4;
+    color: white;
+    scale: 1.1;
+    }
+    #secondshop:active{
+      background-color: #190500;
+      color: white;
+      }
+      #secondshop:focus{
+      background-color: #411004;
+      color: white;
+      }
+      #secondshop:disabled{
+        background-color: #f43506;
+        color: white;
+        cursor: not-allowed;
+      
+}
+
+.itemboc:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 2px rgba(red, 255, 255,);
+  transition: 0.5s;
+  cursor: grab;
+  }
+
+  .fade {
+    animation: fade 1.5s ease-in-out;
+  }
+
+  @keyframes fade {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+  }
+
+  
+

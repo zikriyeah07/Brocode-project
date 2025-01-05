@@ -1,0 +1,163 @@
+*/* Boilerplate CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: auto;
+}
+
+main {
+  margin: 0 4vw;
+}
+
+main h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 3vh 0vh;
+}
+.parentWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.prdInfo {
+  display: flex;
+}
+.cartContainer {
+  width: 70vw;
+}
+.imgContainer {
+  width: 20vw;
+}
+.img {
+  overflow: hidden;
+}
+
+.img img {
+  height: 20vw;
+  width: 20vw;
+  object-fit: contain;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 0vh;
+}
+
+.quantityButton {
+  width: 10vw;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.3vh;
+}
+.likeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.infoContainer {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+}
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.info p {
+  color: rgb(95, 91, 91);
+}
+
+.price p {
+  font-weight: 600;
+}
+
+.shippingHeading {
+  font-weight: 600;
+}
+
+.deliveryDate a {
+  color: black;
+}
+
+.pickup {
+  padding-top: 2vh;
+  font-weight: 600;
+}
+
+.findStore a {
+  color: black;
+}
+
+.summary {
+  width: 33vw;
+  margin: 0 2vw;
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 3vh;
+}
+.summary p {
+  padding: 1.5vh 0;
+}
+.promoCode {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.totalling {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  height: 0.1vh;
+  width: 100%;
+  background-color: gray;
+}
+.offer {
+  font-size: 0.9rem;
+}
+
+.offer a {
+  color: gray;
+}
+
+.greenLevel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.level {
+  width: 90%;
+  height: 1.5vh;
+  border-radius: 25px;
+  background-color: green;
+}
+
+.checkoutButton button {
+  margin-top: 2vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 3vh 0;
+  border: none;
+  font-weight: 500;
+}

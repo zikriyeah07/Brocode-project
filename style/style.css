@@ -236,6 +236,14 @@ body {
   overflow: hidden;
 }
 
+.cart {
+  margin: 0 1vw;
+}
+.cartIcon i {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
 .background-container img {
   width: 100%;
   border-radius: 10px;
